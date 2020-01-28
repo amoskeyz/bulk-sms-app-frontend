@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(99, 12, 127);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main h1{
+    display: block;
+    color: white;
+    font-family: comic sans ms;
+    font-size: 4em;
+}
+
+h3{
+  font-family: monospace;
+  font-size: 2em;
+}

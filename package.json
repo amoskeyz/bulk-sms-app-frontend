@@ -1,0 +1,53 @@
+{
+  "name": "bulk-sms-app-frontend",
+  "version": "1.0.0",
+  "description": "simple bulk sms app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amoskeyz/bulk-sms-app-frontend.git"
+  },
+  "keywords": [
+    "react",
+    "sms",
+    "webpack"
+  ],
+  "author": "Amos Oruaroghene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amoskeyz/bulk-sms-app-frontend/issues"
+  },
+  "homepage": "https://github.com/amoskeyz/bulk-sms-app-frontend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-watch": "^6.0.1"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
