@@ -4,7 +4,10 @@
   "description": "simple bulk sms app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startdev": "webpack-dev-server --mode=development",
+    "start": "node server/index.js",
+    "build": "rimraf dist && mkdir dist && webpack --mode=production"
   },
   "repository": {
     "type": "git",
