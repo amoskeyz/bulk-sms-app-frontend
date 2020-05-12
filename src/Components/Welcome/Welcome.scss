@@ -1,0 +1,217 @@
+.wel{
+  height: 550px;
+  position: relative;
+  // background-image: linear-gradient(
+    // rgba(0,0,0,0.8),
+    // rgba(255, 255, 255, 0.8)
+    // ),
+    // url('../../assets/images/29.jpg');
+  // background-repeat: no-repeat;
+  // ba
+  // background-size: cover;
+}
+.pp{
+  display: flex;
+  justify-content: center;
+}
+.welcome {
+  font-family: 'Salsa', cursive;
+    margin: 0px 100px;
+    // position: relative;
+    // padding: 0 10%;
+    padding-top:50px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    // background-image: url('../../assets/images/13.jpg');
+
+    @media screen and (max-width: 700px) {
+      flex-flow: column;
+      justify-content: center;
+    }
+    img, &__info {
+      min-width: 500px;
+      // margin: 1em;
+      width: 40%;
+      @media screen and (max-width: 700px) {
+        width: 80%;
+      }
+    }
+    span{
+      color: white;
+      // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: absolute;
+      font-size: 20px;
+      left: 37%;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      // font-weight: bold;
+      padding: 2em 0;
+      // margin: 4em
+    }
+    &__info {
+      // display: flex;
+      // justify-content: center;
+        // position: absolute;
+        // transition: linear 59s ease;
+      max-width: 500px;
+      // text-align: center;
+      // align-items: center;
+      animation: example 1s ease-in-out;
+    //   transition: linear 59s ease/;
+    .cent{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin:auto;
+      padding-top: 10px;
+    }
+    }
+    .ooo{
+      font-family: 'Salsa', cursive;
+      // position: absolute;
+      // height: 400px;
+      // background-color:red;
+      display: flex;
+      // margin:100px 70px;
+      justify-content: center;
+      // margin: auto;
+      text-align: center;
+      align-items: center;
+      button{
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 1em;
+        padding: 1.4em 2.8em;
+        background-color: transparent;
+        // color: black; 
+        border: none;
+        font-weight: bold; 
+        // border-radius: 5px;
+      }
+    }
+    @keyframes example {
+        from {transform: scale(0);}
+        // to {margin: 3em 0}
+      }
+  }
+
+
+  .welcome {
+    height: 850px;
+    margin: 0em 0;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 700px) {
+      flex-flow: column;
+      justify-content: center;
+    }
+    .developer-svg-icon, &__info {
+      min-width: 300px;
+      margin: 0 1em;
+      width: 50%;
+      // animation: 2s ease-in-out 0s 1 roll3;
+      @media screen and (max-width: 700px) {
+        width: 80%;
+      }
+    }
+    &__info {
+      animation: 2s ease-in-out 0s 1 roll4;
+      max-width: 500px;
+    }
+  }
+
+  .developer-svg-icon{
+    animation: 2s ease-in-out 0s 1 roll3;
+  }
+
+  // path{
+.mess1{
+  animation:2s ease-in-out 0s 1 roll;
+}
+
+.mess2{
+  animation: 4s ease-in-out 0s 1  roll2;
+}
+
+.mess3{
+  animation: 3s ease-in-out 0s 1 roll1;
+}
+
+.gg{
+  padding-top: 67px;;
+}
+.opp{
+  padding-top: 50px;
+  animation: 3s ease-in-out 0s 1 roll5;
+}
+  // }
+// BC4RYFEW
+
+// rect{
+  .line1{
+    animation:  roll 2s ease alternate ;
+  }
+  .line2{
+    animation:  roll 3s ease alternate;
+  }
+  .line3{
+    animation:  roll 2.5s ease alternate;
+  }
+  .line4{
+    animation:  roll 3.0s ease alternate;
+  }
+// }
+
+  .animate{
+    // background-color: yellow;
+    // animation:  roll 2s ease alternate infinite;
+  }
+
+  @keyframes roll {
+    0%{opacity: 0;}
+      // 30%{transform: rotateY(16deg);;
+    // transform: scale(0);}}
+    // }
+    30%{opacity: 1}
+  }
+  @keyframes roll1 {
+    0%{
+      opacity: 0;}
+    70%{opacity: 1}
+  }
+  @keyframes roll2 {
+    0%{
+    opacity: 0;;}
+    100%{opacity: 1}
+  }
+  @keyframes roll3 {
+    0%{
+    transform: translate(54px);}
+    100%{opacity: 1}
+  }
+
+  @keyframes roll4 {
+    0%{
+    transform: translate(-54px);}
+    100%{opacity: 1}
+  }
+  @keyframes roll5 {
+    0%{opacity: 0;
+      transform: translateY(66px)}
+    // 70%{transform: translateY(1004px);}
+    100%{opacity: 1}
+  }
+.try
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #3F3D56;
+}

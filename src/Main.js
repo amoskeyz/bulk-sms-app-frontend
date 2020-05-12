@@ -1,14 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { Provider } from 'react-redux';
+import Routes from './Routes';
+import Store from './Store';
+import { setDispatch } from './utils';
 
 const Main = () => {
+  setDispatch({ ...Store });
   return (
-    <div className="main">
-      <div>
-        <h1>HELLO WORLD</h1>
-        <h3>Welcome To BULK SMS APP</h3>
-      </div>
-    </div>
-  )
-}
+    <Provider store={Store}>
+      <Routes />
+    </Provider>
+  );
+};
 
 export default Main;

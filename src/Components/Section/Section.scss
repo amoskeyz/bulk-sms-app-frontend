@@ -1,0 +1,114 @@
+.cardd{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	height: 400px;
+	width: 300px;
+	padding-top: 6px;
+	margin: 0 10px;
+	background: white;
+	text-align: center;
+	border-radius: 5px;
+	// border-bottom: 1px solid;
+	box-shadow: 0px 1px 2px grey;
+	// position: absolute;
+	img{
+		height: 100px;
+	}
+	p{
+		padding: 10px;
+		font-size: 19px;
+		// margin: 0;
+	}
+	h6{
+		font-weight: bold;
+		padding: 0;
+		margin: 0;
+		margin-top: 2px;
+	}
+}
+.sc{
+	display: flex;
+	// flex-wrap: wrap;
+	// position: absolute;
+	justify-content: center;
+	flex: 0 1 25%; 
+	margin:0 200px;
+	bottom: -210px
+}
+
+
+.oi{
+    padding: 10px;
+    margin:0 50px;
+    // padding-bottom: 100px;
+img{
+    height: 100px;
+}
+}
+
+.lorem{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	// display: flex;
+	// justify-content: center;
+	align-items: center;
+	height: 200px;
+	padding: 40px 10px;
+	// margin-top: 270px; 
+	h6{
+		font-weight: bold;
+	}
+	p{
+		font-size: 20px;
+	}
+	background-color: rgba(187, 200, 241, 0.3);
+	transition: transform 2s ease-in-out;
+}
+.section{
+	margin-top: 230px;
+	.cardd{
+		margin-bottom: 40px;;
+	}
+}
+.o1{
+	color: purple;
+	// background-color: rgba(106, 90, 205, 0.8);
+	animation: 3s ease-in-out 0s 1 tye
+}
+.o2{
+	color: purple;
+	// background-color: rgba(255, 255, 0, 0.5);
+	animation: 3s ease-in-out 0s 1 ty;
+}
+.o3{
+	color: purple;
+	// background-color: rgba(0, 128, 0, 0.8);
+	animation: 3s ease-in-out 0s 1 tyee;
+}
+
+@keyframes ty{
+	0%{
+		opacity: 0;
+		// margin-top: 40px; 
+	}
+	
+}
+
+@keyframes tye{
+	0%{
+		opacity: 0;
+		// margin-top: 40px;
+		transform: translate(-67px); 
+	}
+	
+}
+
+@keyframes tyee{
+	0%{
+		opacity: 0;
+		// margin-top: 40px;
+		transform: translate(67px); 
+	}
+	
+}

@@ -1,0 +1,30 @@
+.footer {
+    background-color: #3F3D56;
+    padding: 2em;
+    // margin-top: 2em;
+    flex-flow: column;
+    .social-links-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        .social-link {
+            transition: transform 0.5s ease;
+            margin: 1em;
+            img {
+                height: 2em;
+            }
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    p {
+        font: 400 1em 'Red Hat Display';
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    hr{
+        margin: 5px;
+        width:100%
+    }
+}

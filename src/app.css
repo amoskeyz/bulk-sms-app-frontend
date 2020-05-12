@@ -1,21 +1,22 @@
-body {
-    background-color: rgb(99, 12, 127);
+*{
+    box-sizing: border-box;
 }
 
-.main {
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
-.main h1{
-    display: block;
-    color: white;
-    font-family: comic sans ms;
-    font-size: 4em;
+body {
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
 }
 
-h3{
-  font-family: monospace;
-  font-size: 2em;
+a{
+    text-decoration: none;
+}
+
+.Toastify__toast-body{
+    font-family: 'Varela', Montserrat;
 }
