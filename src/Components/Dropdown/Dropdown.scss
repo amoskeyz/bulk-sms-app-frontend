@@ -1,0 +1,59 @@
+.dropdown {
+    width: 180px;
+    position: absolute;
+    right: 0;
+    box-shadow: 0px 4px 25px 2px rgba(0, 0, 0, 0.2);
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.2s ease-out;
+    background-color: white;
+    &__nav-arrow-wrap {
+      position: relative;
+  
+      &::before {
+        content: ' ';
+        position: absolute;
+        right: 4.8em;
+        top: -9px;
+        background-color: white;
+        box-shadow: -5px -5px 20px -5px rgba(0, 0, 0, 0.3);
+        width: 1em;
+        height: 1em;
+        transform: rotate(45deg);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-right: none;
+        border-bottom: none;
+      }
+  
+      li {
+        padding: 1.2em 1em;
+        cursor: pointer;
+        width: 80%;
+        margin: 0 auto;
+        border-bottom: 1px solid rgba(202, 202, 202, 0.301);
+        font-family: 'Red Hat Display', serif;
+        font-size: 0.9em;
+        font-weight: 500;
+        color: #3f3d56b0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+          margin-right: 1em;
+        }
+  
+        &:hover {
+          span {
+            color: #3f3d56;
+          }
+          path {
+            fill: #3f3d56;
+          }
+        }
+      }
+    }
+  }
+  .dropdown__open {
+    transform: scale(1);
+    opacity: 1;
+  }

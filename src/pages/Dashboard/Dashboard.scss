@@ -1,0 +1,17 @@
+.carder{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    flex: 0 1 32%;
+    margin: auto;
+    .card{
+        flex: 0 1 23%;
+        margin: 5px;
+        p{
+            font-size: 40px;
+            color: orange;
+        }
+    }
+}

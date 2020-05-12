@@ -1,0 +1,308 @@
+.Sign-up{
+    background: url('../../assets/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Varela',serif;
+    display: flex;
+    // height: 550px;
+    justify-content: center;
+// position: relative;
+    // align-items: center;
+    h1{
+        // font-family: 'Caveat', cursive;
+// font-family: 'Satisfy', cursive;
+// font-family: 'Great Vibes', cursive;
+font-family: 'Kaushan Script', cursive;
+// font-family: 'Marck Script', cursive;
+// font-family: 'Tangerine', cursive;
+// font-family: 'Merienda', cursive;
+font-size: 2.9em;
+    }
+    .ou {
+        // width: 180%;
+        // align-items: center;
+        // text-align: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // margin: auto;
+    }
+    .sign{
+        display: block;
+        // width: 180%;
+        // align-items: center;
+        // text-align: center;
+        // margin: auto;
+        form{
+            margin-top: 10px;
+            // margin:5px;
+            margin-right: 40px;
+            // color: purple;
+            // display: inline-flex;
+        }
+        .inp{
+            display: block;
+        }
+        label{
+            font-size: 1em;
+
+            // display: flex;
+            // margin: auto;
+            // text-align: ;
+            // align-self: start;
+        }
+        .h2{
+            margin-top: 10px;
+            // padding: 0;
+            // float: left;
+            color: purple;
+            // text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .glad{
+            text-align: center;
+            font-style: italic;
+            font-size: 1.2em;
+            p{
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+    // input{
+    //     // color: white;
+    //     // font-size: 18px;
+    // }
+    .email{
+        display: grid;;
+        // text-align: center;
+        label{
+            // margin-right: 8.5%;
+        }
+        // background-color: yellow;
+    }
+    .password{
+        display: grid;
+        // text-align: unset;
+        label{
+            // margin-right: 20.5%;
+        }
+    }
+    .for{
+        // display: flex;
+        // justify-content: space-between;
+        text-align: center;
+    font-size: 1em;
+    p{
+        // font-style: italic;
+        padding: 5px;
+        margin: 0;
+    }
+    }
+    input, .bbtn{
+        font-family: 'varela', serif;
+        width: 95%;
+        height: 4em;
+        // font-size: 1em;
+        background-color: rgba(248, 238, 248, 0.5);
+        outline: none;
+        border-radius: 5px;
+        border: 1px rgb(199, 173, 199) solid
+    }
+    input{
+        margin-top:5px;
+        margin-bottom: 6px;
+        transition: 1s ease-in-out linear;
+        height: 2.7em;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    input:focus{
+        box-shadow: 1px 1px 7px -2px rgb(199, 38, 199);
+    }
+    .bbtn{
+        font-family:'Varela',serif;
+        cursor: pointer;
+        position: relative;
+        // font-size:1em;
+        // font-weight: bold;
+        background-color: purple;
+        color: white;
+    }
+    .nex{
+        font-size: 1.3em;
+    }
+}
+
+.SignUP{
+    .signup-container{
+        // display: flex;
+        // justify-content: center;
+        margin: 50px;
+        // height: 600px;
+        .form{
+            background-color: red;
+        }
+        .write-up{
+            background-color: green;
+        }
+    }
+}
+.sep{
+    background-color: white;
+    // display: flex;
+    padding: 10px;
+    margin:40px;
+    border-radius: 15px;
+    box-shadow: 0.5px 2px 5px -1px;
+    .sep1{
+        display: flex;
+        padding-left: 40px;
+        justify-content: center;
+        // text-align: center;
+        margin: auto;
+        // width: 600px;
+        border-radius: 10px;
+    }
+    .seperator{
+        font-family: 'Kaushan Script', cursive;
+        span{
+            font-size: 1.5em;
+        }
+        hr{
+            font-weight: bolder;
+            font-size: 3em;
+            height: 190px;
+            width: 1px;
+        }
+    }
+    .sep2{
+        display: flex;
+        margin-top: 1%;
+        justify-content: center;
+       width: 400px;
+    //    padding-right: 30px;
+    }
+    .righter{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        // padding-right: 10px;
+        h1{
+            margin: auto;
+            text-align: center;
+        }
+        .all-right{
+        width: 110%;
+        }
+        .btnnn{
+            margin-top: 40px;
+            font-family:'Varela',serif;
+            display: block;
+            text-align: center;
+            img{
+                padding:5px 10px;
+            }
+            button{
+                cursor: pointer;
+                font-family:'Varela',serif;
+                font-size: 1em;
+                width: 90%;
+                padding:10px;
+                display: flex;
+                align-items: center;
+                background-color: white;
+                border: none;
+                box-shadow: 0px 2px 3px -2px;
+                border-radius: 30px;
+            }
+            > div{
+                margin:15px;
+                display: flex;
+                justify-content: center;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+.fl{
+    display: flex;
+    input{
+        // margin-right:1px;
+        width: 90%
+    }
+}
+
+@media only screen and (max-width: 900px){
+.sep{
+    padding: 5px;
+margin: 20px;
+.h2{
+    text-align: center;
+}
+.sep1{
+    padding-left: 0;
+    // width: 600;
+    // background-color: yellowgreen;
+    flex-direction: column;
+    span{
+        order: 1;
+        // display: none;
+    }
+    hr {
+        display: none;
+    }
+    h1{
+        display: none
+        ;
+    }
+    .seperator{
+        // font-family: 'vere';
+        text-align: center;
+        order: 2;
+    }
+    .sep2{
+        order: 1;
+        margin: auto;
+    }
+    .righter{
+        .all-right{
+            width: auto;
+            }
+            button{
+                width:130%
+            }
+        }
+}
+.fl{
+    display: block;
+    input{
+        width: auto
+    }
+}
+input{
+    width: auto;
+}
+.in1{
+    order: 3;
+    margin: auto;
+    // display: flex;
+    // text-align: center;
+    // justify-content: center;
+    // flex-direction: column;
+    .in2{
+        width: 400px;
+        padding-left: 8.5%;
+        // di
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // text-align: center;
+        // margin: auto;
+    }
+}
+}
+}
