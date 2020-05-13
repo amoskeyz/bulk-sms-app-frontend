@@ -18,7 +18,7 @@ export const clearLocalStorage = () => {
 export const axiosCall = async ({
   path, payload, method, contentType,
 }) => {
-  const url = `${process.env.SERVER_URL}${path}`;
+  const url = `https://bulk-sms-app-backend.herokuapp.com/${path}`;
   const headers = {
     // 'Access-Control-Allow-Origin': '*',
     'x-access-token': localStorage.token,
