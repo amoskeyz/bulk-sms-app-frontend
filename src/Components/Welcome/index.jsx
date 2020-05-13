@@ -61,7 +61,7 @@ const Welcome = () => (
         <img src="http://res.cloudinary.com/amoslv/image/upload/v1589361667/%24Boy%20Creates%20Covid-19%20vaccine-type-news.png" alt="facebook" />
       </span>
       <span>
-        <img src="http://res.cloudinary.com/amoslv/image/upload/v1589361724/Boy%20Creates%20Covid-19%20vaccine-type-news.png" alt="facebook" />
+        <img src="https://res.cloudinary.com/amoslv/image/upload/v1589362780/Boy%20Creates%20Covid-19%20vaccine-type-news.png" alt="facebook" />
       </span>
       <span>
         <img src="http://res.cloudinary.com/amoslv/image/upload/v1589361726/Boy%20Creates%20Covid-19%20vaccine-type-news.png" alt="facebook" />
