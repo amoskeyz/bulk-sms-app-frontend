@@ -54,8 +54,8 @@ export const signUpAction = values => async (dispatch) => {
 
   try {
     const result = await axiosCall({ path: '/api/v1/user/signup', payload: details, method: 'post' });
-    saveToLocalStorage(result.user);
-    dispatch(signUpSuccess(result.user));
+    saveToLocalStorage(result.data);
+    dispatch(signUpSuccess(result.data));
   } catch (error) {
     /* istanbul ignore next */
     const { response } = error;

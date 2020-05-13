@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import TypeWriterEffect from 'react-typewriter-effect';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import Dev from '../../assets/Dev';
@@ -49,7 +50,7 @@ const Welcome = () => (
           /> */}
         </div>
         <div className="ooo opp">
-          <button type="button" style={{ background: 'slateblue', color: 'white' }}>Get Started</button>
+          <Link to="/signup"><button type="button" style={{ background: 'slateblue', color: 'white' }}>Get Started</button></Link>
           {/* <button type="button" style={{ background: '#eee', color: '#445' }}>Free Trial</button> */}
         </div>
       </div>
