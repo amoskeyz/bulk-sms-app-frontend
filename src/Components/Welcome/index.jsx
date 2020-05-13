@@ -58,13 +58,13 @@ const Welcome = () => (
     {/* <Footer /> */}
     <div className="fft">
       <span>
-        <img src="../../assets/fface2.png" alt="facebook" />
+        <img src="http://res.cloudinary.com/amoslv/image/upload/v1589361667/%24Boy%20Creates%20Covid-19%20vaccine-type-news.png" alt="facebook" />
       </span>
       <span>
-        <img src="../../assets/ttwit.png" alt="facebook" />
+        <img src="http://res.cloudinary.com/amoslv/image/upload/v1589361724/Boy%20Creates%20Covid-19%20vaccine-type-news.png" alt="facebook" />
       </span>
       <span>
-        <img src="../../assets/inst.png" alt="facebook" />
+        <img src="http://res.cloudinary.com/amoslv/image/upload/v1589361726/Boy%20Creates%20Covid-19%20vaccine-type-news.png" alt="facebook" />
       </span>
       {/* <Facebook /> */}
       {/* <a href='Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>' /> */}
