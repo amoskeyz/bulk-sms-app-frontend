@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
+import { ToastContainer } from 'react-toastify';
+import { css } from '@emotion/core';
 import './SignUp.scss';
 import { Link } from 'react-router-dom';
 import Navbar from '../../Components/Navbar';
@@ -159,7 +161,15 @@ const SignUp = ({
                           className="bbtn"
                         >
                           { isLoading
-                            ? <div><Loader /></div>
+                            ? (
+                              <div>
+                                <Loader
+                                  size={12}
+                                  color="white
+                          "
+                                />
+                              </div>
+                            )
                             : <div className="nex">Register</div>
              }
                         </button>
@@ -190,7 +200,7 @@ const SignUp = ({
                               <button type="button">
                                 <img
                                   src="../../assets/google.png"
-                                  alt="Authors Haven"
+                                  alt="Bulk sms"
                                 />
                                sign up with Google
                               </button>
@@ -198,8 +208,8 @@ const SignUp = ({
                             <div>
                               <button type="button">
                                 <img
-                                  src="../../assets/facebook.png"
-                                  alt="Authors Haven"
+                                  src="http://res.cloudinary.com/amoslv/image/upload/v1589361667/%24Boy%20Creates%20Covid-19%20vaccine-type-news.png"
+                                  alt="Bulk sms"
                                 />
                               sign up with Facebook
                               </button>
@@ -207,8 +217,8 @@ const SignUp = ({
                             <div>
                               <button type="button">
                                 <img
-                                  src="../../assets/twitter.png"
-                                  alt="Authors Haven"
+                                  src="https://res.cloudinary.com/amoslv/image/upload/v1589362780/Boy%20Creates%20Covid-19%20vaccine-type-news.png"
+                                  alt="Bulk sms"
                                 />
                                 sign up with Twitter
                               </button>
@@ -225,6 +235,18 @@ const SignUp = ({
         </div>
         <div />
       </div>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar
+        rtl={false}
+        pauseOnHover
+        toastClassName={
+        css(
+          { fontFamily: 'Varela, cursive', fontSize: '11px' },
+        )
+          }
+      />
     </div>
   );
 };
