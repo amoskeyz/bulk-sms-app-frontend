@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { ToastContainer } from 'react-toastify';
+import { Redirect, Link } from 'react-router-dom';
 import { css } from '@emotion/core';
 import './SignUp.scss';
-import { Link } from 'react-router-dom';
+
 import Navbar from '../../Components/Navbar';
 import callToast from '../../Components/Toast';
 import Loader from '../../Components/Loader';
@@ -200,7 +201,7 @@ const SignUp = ({
                             <div>
                               <button type="button">
                                 <img
-                                  src="../../assets/google.png"
+                                  src="http://res.cloudinary.com/amoslv/image/upload/v1589364900/Boy%20Creates%20Covid-19%20vaccine-type-news.png"
                                   alt="Bulk sms"
                                 />
                                sign up with Google
@@ -209,7 +210,7 @@ const SignUp = ({
                             <div>
                               <button type="button">
                                 <img
-                                  src="http://res.cloudinary.com/amoslv/image/upload/v1589361667/%24Boy%20Creates%20Covid-19%20vaccine-type-news.png"
+                                  src="http://res.cloudinary.com/amoslv/image/upload/v1589364897/%24Boy%20Creates%20Covid-19%20vaccine-type-news.png"
                                   alt="Bulk sms"
                                 />
                               sign up with Facebook
@@ -218,7 +219,7 @@ const SignUp = ({
                             <div>
                               <button type="button">
                                 <img
-                                  src="https://res.cloudinary.com/amoslv/image/upload/v1589362780/Boy%20Creates%20Covid-19%20vaccine-type-news.png"
+                                  src="http://res.cloudinary.com/amoslv/image/upload/v1589364901/Boy%20Creates%20Covid-19%20vaccine-type-news.png"
                                   alt="Bulk sms"
                                 />
                                 sign up with Twitter
