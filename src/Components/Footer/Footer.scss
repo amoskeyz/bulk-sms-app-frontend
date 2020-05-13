@@ -1,11 +1,11 @@
 .footer {
-    background-color: #3F3D56;
+    background-color: #eee;
     padding: 2em;
-    // margin-top: 2em;
+    margin-top: 12em;
     flex-flow: column;
     .social-links-wrap {
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
         .social-link {
             transition: transform 0.5s ease;
             margin: 1em;

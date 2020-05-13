@@ -19,7 +19,7 @@ const Nav = ({ scroll }) => {
           <div className="navbar-wrap1">
             <div className="navbar1">
               <button type="button">
-                <span>BULK SMS APP</span>
+                <span>90Kobo SMS</span>
                 {/* <HireMeIcon /> */}
               </button>
               <div className="navbar1__nav-links1">
