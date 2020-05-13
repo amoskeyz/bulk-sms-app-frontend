@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-alert */
 /* eslint-disable no-restricted-globals */
 /* eslint-disable max-len */

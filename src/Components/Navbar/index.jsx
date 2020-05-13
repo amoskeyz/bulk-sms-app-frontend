@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 // import HireMeIcon from '../../assets/HireMeIcon';
 import './Navbar.scss';
 import Hamburger from '../Hamburger';
@@ -18,12 +19,12 @@ const Navbar = () => {
         </button>
         <div className="navbar__nav-links">
           <span>Pricing</span>
-          <span>Developer</span>
-          <span>Payment</span>
+          {/* <span>Developer</span> */}
+          {/* <span>Payment</span> */}
           <span>Call: 08098765434</span>
           {/* <span>Contact</span> */}
-          <span className='log'>Login</span>
-          <span className='log up'>Sign Up</span>
+          <Link to="/signin"><span className="log">Login</span></Link>
+          <Link to="/signup"><span className="log up">Sign Up</span></Link>
         </div>
         <Hamburger close={dropdown} handleDropdown={handleDropdown} />
       </div>

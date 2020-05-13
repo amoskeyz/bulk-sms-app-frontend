@@ -1,5 +1,5 @@
 .wel{
-  height: 550px;
+  height: 400px;
   position: relative;
   // background-image: linear-gradient(
     // rgba(0,0,0,0.8),
@@ -22,8 +22,8 @@
     padding-top:50px;
     display: inline-flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    // align-items: center;
+    // text-align: center;
     // background-image: url('../../assets/images/13.jpg');
 
     @media screen and (max-width: 700px) {
@@ -70,28 +70,29 @@
     }
     }
     .ooo{
-      font-family: 'Salsa', cursive;
+      // font-family: 'Salsa', cursive;
       // position: absolute;
+      font-family: 'Kaushan Script', cursive;
       // height: 400px;
       // background-color:red;
       display: flex;
       // margin:100px 70px;
-      justify-content: center;
+      // justify-content: center;
       // margin: auto;
-      text-align: center;
-      align-items: center;
+      // text-align: center;
+      // align-items: center;
       button{
-        display: flex;
+        // display: flex;
         font-size: 20px;
-        justify-content: center;
+        // justify-content: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 1em;
-        padding: 1.4em 2.8em;
+        // margin: 0.5em;
+        padding: 0.7em 1.7em;
         background-color: transparent;
         // color: black; 
         border: none;
         font-weight: bold; 
-        // border-radius: 5px;
+        border-radius: 50px;
       }
     }
     @keyframes example {
@@ -102,7 +103,7 @@
 
 
   .welcome {
-    height: 850px;
+    height: 620px;
     margin: 0em 0;
     padding: 0 10%;
     display: flex;
@@ -145,7 +146,7 @@
 }
 
 .gg{
-  padding-top: 67px;;
+  padding-top: 30px;;
 }
 .opp{
   padding-top: 50px;
@@ -214,4 +215,15 @@
   font-weight: bold;
   font-size: 22px;
   color: #3F3D56;
+}
+.fft{
+  img{
+  width: 50px;
+  height: 50px
+  }
+  margin: 0 0 2px 20px;
+  span{
+    padding-right: 10px;
+  }
+
 }

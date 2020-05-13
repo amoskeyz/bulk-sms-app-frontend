@@ -28,11 +28,11 @@ const Home = () => {
     <div className="home">
       <Nav scroll={scrollY} />
       <Welcome />
-      <Section scroll={scrollY} />
-      <Prices scroll={scrollY} />
-      <Account />
-      <Service />
-      <Footer />
+      {/* <Section scroll={scrollY} /> */}
+      {/* <Prices scroll={scrollY} /> */}
+      {/* <Account /> */}
+      {/* <Service /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

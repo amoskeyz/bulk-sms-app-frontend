@@ -1,8 +1,11 @@
 import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import Dev from '../../assets/Dev';
+// import Facebook from '../../assets/facbook';
 import './Welcome.scss';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
 
 const Welcome = () => (
   <div className="wel">
@@ -12,48 +15,59 @@ const Welcome = () => (
       <div className="welcome__info">
         <TypeWriterEffect
           textStyle={{
-            fontFamily: 'Salsa', textAlign: 'center', fontWeight: 'bold', color: '#3F3D56',
+            fontFamily: 'Varela', fontWeight: 'bold',
           }}
           cursorColor="#3F3D56"
-          text="Send Bulk SMS Online @ 90kobo"
+          text="Make Your Business Communication Effective"
           hideCursorAfterText
           typeSpeed={40}
         />
         <div className="gg">
           <div className="try">
-Send Cheap Bulk SMS |
-          Save Time, Save Money |
-          Instant Message Delivery |
-          90kobo per sms |
-          Fast, Reliable and Secure,
+          Fast, Reliable and Secure...
           </div>
           {/* <TypeWriterEffect
-        textStyle={{
-          fontFamily: 'Red Hat Display',
-          color: '#3F3D56',
-          fontWeight: 'bold',
-          fontSize: '1.8em',
-          fontStyle: 'italic'
-        }}
-        startDelay={4000}
-        cursorColor="#3F3D56"
-        multiText={[
-          'Send Cheap Bulk SMS',
-          'Save Time, Save Money',
-          'Instant Message Delivery',
-          '90kobo per sms',
-          'Fast, Reliable and Secure',
-        ]}
-        multiTextDelay={3000}
-        typeSpeed={80}
-      /> */}
+            textStyle={{
+              fontFamily: 'Kaushan Script',
+              // fontFamily: 'Red Hat Display',
+              color: '#3F3D56',
+              fontWeight: 'bold',
+              fontSize: '1.8em',
+              fontStyle: 'italic',
+            }}
+            startDelay={4000}
+            cursorColor="#3F3D56"
+            multiText={[
+              'Send Cheap Bulk SMS',
+              'Save Time, Save Money',
+              'Instant Message Delivery',
+              '90kobo per sms',
+              'Fast, Reliable and Secure',
+            ]}
+            multiTextDelay={3000}
+            typeSpeed={80}
+          /> */}
         </div>
         <div className="ooo opp">
-          <button type="button" style={{ background: 'blue', color: 'white' }}>Get Started</button>
-          <button type="button" style={{ background: 'slateblue', color: 'white' }}>Free Trial</button>
+          <button type="button" style={{ background: 'slateblue', color: 'white' }}>Get Started</button>
+          {/* <button type="button" style={{ background: '#eee', color: '#445' }}>Free Trial</button> */}
         </div>
       </div>
       <Dev />
+    </div>
+    {/* <Footer /> */}
+    <div className="fft">
+      <span>
+        <img src="../../assets/fface2.png" alt="facebook" />
+      </span>
+      <span>
+        <img src="../../assets/ttwit.png" alt="facebook" />
+      </span>
+      <span>
+        <img src="../../assets/inst.png" alt="facebook" />
+      </span>
+      {/* <Facebook /> */}
+      {/* <a href='Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>' /> */}
     </div>
   </div>
 );
