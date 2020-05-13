@@ -150,8 +150,8 @@ const SignUp = ({
                           className="email"
                           label="Phone Number"
                           name="phoneNumber"
-                          placeholder="phone-number"
-                          type="number"
+                          placeholder="phone number"
+                          type="tel"
                           onChange={onChange}
               //  style = {{ width:'90%' }}
                           required
