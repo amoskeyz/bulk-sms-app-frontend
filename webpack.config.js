@@ -16,7 +16,7 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 module.exports = (env, argv) => {
   let isDevelopment = false;
   if (['staging', 'review', 'production'].includes(argv.mode)) {
-    isDevelopment = false;
+    isDevelopment = true;
   } else isDevelopment = true;
 
   return {
