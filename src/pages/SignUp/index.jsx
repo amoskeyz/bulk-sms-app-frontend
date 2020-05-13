@@ -71,6 +71,7 @@ const SignUp = ({
     <div>
       <Navbar />
       <div className="Sign-up">
+        {isCompleted && <Redirect to="/compose" />}
         <div className="ou">
           <div className="sign">
             <div>
